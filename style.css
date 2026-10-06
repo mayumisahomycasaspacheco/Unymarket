@@ -1,0 +1,45 @@
+html, body
+{
+    margin: 0;
+    height: 100%;
+}
+
+body
+{
+    background: url("imagenes/fondo.png") center / 100% 100% no-repeat;
+    overflow: hidden;
+}
+
+.icono
+{
+    position: absolute;
+    width: 14%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.icono img
+{
+    width: 100%;
+    display: block;
+}
+
+#boton_inicio
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 8.5%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#boton_inicio img
+{
+    width: 100%;
+    display: block;
+}
