@@ -31,7 +31,7 @@ body
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 8.5%;
+    width: 8.7%;
     background: none;
     border: none;
     padding: 0;
@@ -42,4 +42,40 @@ body
 {
     width: 100%;
     display: block;
+}
+
+#ventana_comprar
+{
+    position: absolute;
+    left: 25%;
+    top: 14%;
+    width: 55%;
+}
+
+#ventana_comprar img
+{
+    width: 100%;
+    display: block;
+}
+
+.boton_ventana
+{
+    position: absolute;
+    top: 4.5%;
+    width: 5%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.boton_ventana img
+{
+    width: 100%;
+    display: block;
+}
+
+.oculta
+{
+    display: none;
 }
