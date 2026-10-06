@@ -39,7 +39,39 @@ boton_cerrar_vender.addEventListener("click", function (){
 
 const boton_libros = document.getElementById("boton_libros");
 const seccion_libros = document.getElementById("seccion_libros");
+const boton_ropa = document.getElementById("boton_ropa");
+const seccion_ropa = document.getElementById("seccion_ropa");
+const boton_tecnologia = document.getElementById("boton_tecnologia");
+const seccion_tecnologia = document.getElementById("seccion_tecnologia");
+const boton_otros = document.getElementById("boton_otros");
+const seccion_otros = document.getElementById("seccion_otros");
+
 
 boton_libros.addEventListener("click", function (){
     seccion_libros.classList.remove("oculta");
+    seccion_tecnologia.classList.add("oculta");
+    seccion_ropa.classList.add("oculta");
+    seccion_otros.classList.add("oculta");
+});
+
+boton_ropa.addEventListener("click", function ()
+{
+    seccion_libros.classList.add("oculta");
+    seccion_tecnologia.classList.add("oculta");
+    seccion_ropa.classList.remove("oculta");
+    seccion_otros.classList.add("oculta");
+});
+
+boton_tecnologia.addEventListener("click", function (){
+    seccion_libros.classList.add("oculta");
+    seccion_ropa.classList.add("oculta");
+    seccion_tecnologia.classList.remove("oculta");
+    seccion_otros.classList.add("oculta");
+});
+
+boton_otros.addEventListener("click", function (){
+    seccion_libros.classList.add("oculta");
+    seccion_ropa.classList.add("oculta");
+    seccion_tecnologia.classList.add("oculta");
+    seccion_otros.classList.remove("oculta");
 });

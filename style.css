@@ -87,7 +87,7 @@ body
 .categoria
 {
     position: absolute;
-    left: 7%;
+    left: 11%;
     top: 37%;
     width: 12%;
     background: none;
@@ -105,4 +105,12 @@ body
 .seccion
 {
     position: absolute;
+    left: 30%;
+    top: 27%;
+    width: 66%;
+    height: 62%;
+    box-sizing: borderbox;
+    padding: 1vw;
+    overflow: auto;
+    font-size: 1.1vw;
 }
