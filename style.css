@@ -44,15 +44,19 @@ body
     display: block;
 }
 
-#ventana_comprar
+#ventana_comprar,
+#ventana_vender,
+#ventana_perfil
 {
     position: absolute;
-    left: 25%;
+    left: 28%;
     top: 14%;
-    width: 55%;
+    width: 50%;
 }
 
-#ventana_comprar img
+#ventana_comprar img,
+#ventana_vender img,
+#ventana_perfil img
 {
     width: 100%;
     display: block;
@@ -78,4 +82,27 @@ body
 .oculta
 {
     display: none;
+}
+
+.categoria
+{
+    position: absolute;
+    left: 7%;
+    top: 37%;
+    width: 12%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.categoria img
+{
+    width: 100%;
+    display: block;
+}
+
+.seccion
+{
+    position: absolute;
 }
