@@ -75,3 +75,9 @@ boton_otros.addEventListener("click", function (){
     seccion_tecnologia.classList.add("oculta");
     seccion_otros.classList.remove("oculta");
 });
+
+const boton_inicio = document.getElementById("boton_inicio");
+
+boton_inicio.addEventListener("click", function (){
+    window.location.href = "login.html";
+});
