@@ -164,3 +164,16 @@ body
     color: #ffeb7a;
     font-size: clamp(13px, 1.2vw, 22px);
 }
+
+.aviso_demo
+{
+    margin: 0;
+    text-align: center;
+    font-size: clamp(13px, 1.2vw, 22px);
+    color: #ffeb7a;
+}
+
+.aviso_demo:empty
+{
+    display: none;
+}
