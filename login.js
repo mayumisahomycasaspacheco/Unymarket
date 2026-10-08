@@ -1,4 +1,4 @@
-const casilla = document.getElementById("mostrar_password")
+const casilla = document.getElementById("mostrar_password");
 const campo_password = document.getElementById("password");
 
 casilla.addEventListener("change", function (){
